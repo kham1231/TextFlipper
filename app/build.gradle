@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.textflipper'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.textflipper"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+  
+}
